@@ -1,6 +1,11 @@
-# SiteMapper #
+SiteMapper
+==========
 
-SiteMapper crawls a given url, and creates a tree of the site. Dead links stop the crawl, which resumes from the parent. The tree can be reformatted using the options specified below.
+SiteMapper crawls a given url, and creates a tree of the site. Dead links stop
+the crawl, which resumes from the parent. The tree can be reformatted using the
+options specified below.
+
+.. code-block:: none
 
 	usage: sitemapper [-h] [-n | -t chars] [-e] [-p] [-m depth] url
 
